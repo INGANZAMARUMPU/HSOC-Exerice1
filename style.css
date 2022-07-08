@@ -1,3 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
 body{
 	background-color: lightgray;
+}
+body > *{
+	margin: 10px;
+}
+.yera{
+	background-color: white;
+	padding: 10px 0;
+}
+.yera *{
+	text-align: center;
+	padding: 10px 0;
+}
+.yirabura{
+	background-color: black;
+}
+
+.margin{
+	background-color: #f90;
+	display: inline-block;
+}
+.padding{
+	background-color: #850;
+	display: inline-block;
+}
+
+.margin *{
+	margin: 20px;
+}
+
+.padding *{
+	padding: 20px;
+}
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.yirabura{
+	display: flex;
+	justify-content: space-between;
 }
